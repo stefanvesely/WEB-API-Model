@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Steff\\Desktop\\Course Folder\\try5000rpg\\try5000rpg.csproj": {}
+    "C:\\Users\\Steff\\Desktop\\Course Folder\\try5000rpg\\WEB-API-Model\\try5000rpg.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Steff\\Desktop\\Course Folder\\try5000rpg\\try5000rpg.csproj": {
+    "C:\\Users\\Steff\\Desktop\\Course Folder\\try5000rpg\\WEB-API-Model\\try5000rpg.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Steff\\Desktop\\Course Folder\\try5000rpg\\try5000rpg.csproj",
+        "projectUniqueName": "C:\\Users\\Steff\\Desktop\\Course Folder\\try5000rpg\\WEB-API-Model\\try5000rpg.csproj",
         "projectName": "try5000rpg",
-        "projectPath": "C:\\Users\\Steff\\Desktop\\Course Folder\\try5000rpg\\try5000rpg.csproj",
+        "projectPath": "C:\\Users\\Steff\\Desktop\\Course Folder\\try5000rpg\\WEB-API-Model\\try5000rpg.csproj",
         "packagesPath": "C:\\Users\\Steff\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Steff\\Desktop\\Course Folder\\try5000rpg\\obj\\",
+        "outputPath": "C:\\Users\\Steff\\Desktop\\Course Folder\\try5000rpg\\WEB-API-Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

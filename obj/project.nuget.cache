@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vM39XmJBA3sDSbHARl69YnSnJ0Ixip9fFYN0mX1Pv3hllTF/mblikbxccxwjNewG0Dk2jCr/6vvSDFM85oOiaA==",
+  "dgSpecHash": "uYSia5O4ak+mlPFIpv90BCgu+LJHJ619Z7UD9vi7E1R7SjMNNzgY1sD3AaUDgkgggJXlr9DQTrC6AoNAG+7A0g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Steff\\Desktop\\Course Folder\\try5000rpg\\try5000rpg.csproj",
+  "projectFilePath": "C:\\Users\\Steff\\Desktop\\Course Folder\\try5000rpg\\WEB-API-Model\\try5000rpg.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Steff\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Steff\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

@@ -8,7 +8,7 @@ namespace try5000rpg.Services.CharacterService
 {
     public interface iCharService
     {
-        Task<ServiceResponse<List<GetCharacterDTO>>> GetAllCharacters(int UserID);
+        Task<ServiceResponse<List<GetCharacterDTO>>> GetAllCharacters();
         Task<ServiceResponse<GetCharacterDTO>> GetSingle (int id);
         Task<ServiceResponse<List<GetCharacterDTO>>> CreateSingle(AddCharacterDTO newSingle);
 

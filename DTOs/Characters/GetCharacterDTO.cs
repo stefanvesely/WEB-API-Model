@@ -1,10 +1,11 @@
+using try5000rpg.DTOs.Weapons;
 using try5000rpg.Models; 
 namespace try5000rpg.DTOs.Characters
 {
     public class GetCharacterDTO
     {
         public int Id { get; set; }
-        public string Name { get; set; }= "steff";
+        public string Name { get; set; } = "steff";
 
         public int HitPoints { get; set; } = 100;
 
@@ -14,5 +15,7 @@ namespace try5000rpg.DTOs.Characters
 
         public int Intelligance { get; set; } = 10;
         public CharClass Class { get; set; } = CharClass.knight;
+
+        public GetWeaponDTO Weapon {get;set;}
     }
 }

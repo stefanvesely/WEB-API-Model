@@ -12,5 +12,8 @@ namespace try5000rpg.Data
 
         public DbSet<Characters> Characters {get;set;}
         public DbSet<User> Users { get; set; }
+
+        public DbSet<Weapon> Weapons { get; set; }
+        public DbSet<Skills> Skills { get; set; }
     }
 }

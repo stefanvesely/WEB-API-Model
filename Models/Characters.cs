@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace try5000rpg.Models
 {
     public class Characters
@@ -14,5 +16,7 @@ namespace try5000rpg.Models
         public int Intelligance { get; set; } = 10;
         public CharClass Class { get; set; } = CharClass.knight;
         public User User { get; set; }
+        public Weapon Weapon { get; set; }
+        public List<Skills> Skills { get; set; }
     }
 }
