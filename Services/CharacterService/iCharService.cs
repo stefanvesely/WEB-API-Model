@@ -15,5 +15,6 @@ namespace try5000rpg.Services.CharacterService
         Task<ServiceResponse<GetCharacterDTO>> UpdateCharacter (UpdateCharacterDTO updatedCharacter);
 
         Task<ServiceResponse<List<GetCharacterDTO>>> DeleteCharacter (int iCharacterID);
+        Task<ServiceResponse<GetCharacterDTO>> AddCharacterSkill(AddCharacterSkillDTO characterSkill);
     }
 }

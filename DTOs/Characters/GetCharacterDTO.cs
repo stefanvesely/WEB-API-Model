@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using try5000rpg.DTOs.Skills;
 using try5000rpg.DTOs.Weapons;
 using try5000rpg.Models; 
 namespace try5000rpg.DTOs.Characters
@@ -17,5 +19,10 @@ namespace try5000rpg.DTOs.Characters
         public CharClass Class { get; set; } = CharClass.knight;
 
         public GetWeaponDTO Weapon {get;set;}
+        public List<GetSkillDTO> Skills { get; set; }
+
+        public int Fights { get; set; }
+        public int Victories { get; set; }
+        public int Defeats { get; set; }
     }
 }

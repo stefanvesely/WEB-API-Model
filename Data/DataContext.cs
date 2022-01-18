@@ -15,5 +15,16 @@ namespace try5000rpg.Data
 
         public DbSet<Weapon> Weapons { get; set; }
         public DbSet<Skills> Skills { get; set; }
+
+        protected override void OnModelCreating (ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Skills>().HasData(
+                new Skills { Id = 1, Name = "Fireball", Damage = 20},
+                new Skills { Id = 2, Name = "BigBalls", Damage = 30 },
+                new Skills { Id = 3, Name = "BiggerBalls", Damage = 50 },
+                new Skills { Id = 4, Name = "BiggestBalls", Damage = 70 },
+                new Skills { Id = 5, Name = "BlackHoleBalls", Damage = 100 }
+                );
+        }
     }
 }

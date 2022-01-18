@@ -37,10 +37,6 @@ namespace try5000rpg.Services.WeaponService
                     response.Success = false;
                     response.Message = "no character found";
                 }
-                else
-                {
-                    
-                }
                 var weapon = new Weapon
                 {
                     Name = newWeapon.Name,

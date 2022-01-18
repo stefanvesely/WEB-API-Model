@@ -60,5 +60,10 @@ namespace try5000rpg.Controllers
             }
             return Ok(srResponse);
         }
+        [HttpPost("Skill")]
+        public async Task<ActionResult<ServiceResponse<GetCharacterDTO>>> AddCharacterSkill (AddCharacterSkillDTO newCharacterSkill)
+        {
+            return Ok(await _charService.AddCharacterSkill(newCharacterSkill));
+        }
     }
 }
