@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using try5000rpg.DTOs.Fights;
+using try5000rpg.Models;
 using try5000rpg.Services.FightService;
 
 namespace try5000rpg.Controllers
@@ -19,7 +20,7 @@ namespace try5000rpg.Controllers
             _fightservice = fightservice;
         }
         [HttpPost("Weapon")]
-        public async Task<IActionResult> WeaponAttack(WeaponAttackDTO request)
+        public async Task<ActionResult<ServiceResponse<AttackResultsDTO>>> WeaponAttack(WeaponAttackDTO request)
         {
             return Ok(await _fightservice.WeaponAttack(request));
         }
